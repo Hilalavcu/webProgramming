@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Temel Ders Notlari</title>
+</head>
+
+<body>
+    <h1> Merhaba Dünya! </h1>
+    <h3>İnternet Programcılığı</h3> <hr>
+
+    <h3>Paragraf Cümlesi</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni veritatis laborum quo a expedita dolore culpa
+        veniam cumque libero odio ea possimus, maiores consequuntur itaque harum eligendi quos perferendis!
+    </p>
+
+    <h3>Bağlantı Ekleme</h3>
+    <a href="https://www.google.com" target="_blank"> Google'da Arama Yapmak için Tıklayınız.</a>
+
+    <h3>Resim Ekleme</h3>
+    <img src="resim.png" width="100">
+
+    <h3> Liste Oluşturma </h3>
+    <ul>
+        <li>Bu bir sırasız Liste örneğidir</li>
+        <ul><li>Öğe 1</li>
+        <li>Öğe 2</li>
+        <li>Öğe 3</li>
+    </ul>
+    </ul>
+
+    <ol type="A">
+        <li>Bu bir sıralı liste örneğidir</li>
+        <ol type="1"><li>Sıra 1</li>
+            <li>Sıra 2</li>
+            <li>Sıra 3</li>
+        </ol>
+    </ol>
+
+    <h3>Tablo Oluşturmak</h3>
+
+    <table border="2">
+        <tr>
+            <th>Ülke</th>
+            <th>Ülke Kodu</th>
+        </tr>
+        <tr>
+            <td> Türkiye</td>
+            <td>+90</td>
+        </tr>
+        <tr>
+            <td>Fransa</td>
+            <td>+33</td>
+        </tr>
+        <tr>
+            <td>Almanya</td>
+            <td>+49</td>
+        </tr>
+    </table>
+
+     <!--Form Etiketleri kullancıdan bilgi almak veya  sunucuya veri göndermek için kullanılır. -->
+    <h3>Form Etiketleri</h3>
+    <form action="/submit_form" method="post">
+        <input type="text" name="username" placeholder="Kullanıcı Adı:"><br><br>
+
+        <input type="password" name="password" placeholder="Şifre:"><br><br>
+
+        <input type="email" name="password" placeholder="Eposta:"><br><br>
+       
+        <input type="radio" name="gender" value="male"> Erkek <br>
+        <input type="radio" name="gender" value="female"> Kadın
+    </form>
+   <ol type="i">
+    <li>Form Örneği</li>
+   </ol>
+
+   <form action="/submit_form" method="post">
+
+    <label for="fname"> Ad:</label>
+    <input type="text" id="fname" name="firstname" required><br><br>
+
+    <label for="lname">Soyad:</label>
+    <input type="text" id="lname" name="lastname" required ><br><br>
+
+    <label for="email">E-Posta:</label>
+    <input type="email"  id="email" name="email" required ><br><br>
+
+    <label>Cinsiyeti Seçiniz: </label><br>
+    <input type="radio" name="gender" value="male"> Erkek <br>
+    <input type="radio" name="gender" value="female"> Kadın <br><br>
+
+    <button type="submit"> Gönder </button> 
+
+
+   </form>
+
+   <!-- <div> etiketi, içerisine aldığı içeriği gruplamak,
+     stil uygulamak veya belirli bir düzen oluşturmak amacıyla kullanılır. -->
+
+     <div class="container">
+        <h3>Div Etiketi</h3>
+        <p>Bu bir div örneğidir.</p>
+     </div>
+
+     <h3>Select Etiketi</h3>
+
+     <label for="countries"> Ülke Seçiniz:</label>
+     <select name="country" id="countries">
+        <option value="turkey">Türkiye</option>
+        <option value="france">Fransa</option>
+        <option value="germany">Almanya</option>
+        <option value="brazil">Brezilya</option>
+        <option value="switzerland">İsviçre</option>
+        <option value="italy">İtalya</option>
+        <option value="singapore">Singapur</option>
+     </select>
+
+     <h3>Etiketler</h3>
+     <p>Bu bir <em>vurgulama</em> etiketidir.</p>
+     <p>Metni <strong>kalın</strong> yapar.</p>
+    <p>Dünya Sağlık Örgütü <abbr title="WHO">WHO</abbr> 1948'de kuruldu.</p>
+
+    <h3>Header Kullanımı</h3>
+    <header>
+        <h5>Web Sayfası Başlığı</h5>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkında</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <h3>Main Kullanımı</h3>
+
+    <main>
+        <article>
+            <h5>Makale Başlığı</h5>
+            <p>Bu bir makalenin içeriğidir...</p>
+        </article>
+
+        <article>
+            <h5>Diğer Makale Başlığı</h5>
+            <p>Bu bir başka makalenin içeriğidir...</p>
+        </article>
+    </main>
+
+    <h3>Section Aside Etiketleri Örneği</h3>
+
+    <section>
+        <h5>Bölüm Başlığı</h5>
+        <p>Bu bir bölümüm içeriğidir...</p>
+    </section>
+
+    <aside>
+        <h5>Yan Bilgi Başlığı</h5>
+        <p>Bu sayfa ile ilgili olmayan yan bilgileri içerir.</p>
+    </aside>
+
+    <h3>Footer Etiketi Örneği</h3>
+    <footer>
+        <p>&copy; 2024 Web Sayfası</p>
+    </footer>
+
+    <h5>blockquote</h5>
+
+    <blockquote>
+        <p>Bu bir alıntıdır. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </blockquote>
+
+</body>
+
+</html>
